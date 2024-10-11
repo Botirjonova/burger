@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+
+}
+
+.nav {
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
+
+
+.logo button {
+    border: none;
+    background: #FC004A;
+    color: #fff;
+    font-size: 15px;
+    padding: 11px  41px;
+    border-radius: 12px;
+
+}
+
+li a {
+    color: #000;
+    font-size: 15px;
+
+}
+section {
+    display: flex; justify-content: center;
+    margin-bottom: 64px;
+}
+section img {
+    width: 85%;
+    border-radius: 15px;
+    margin-top: 63px;
+}
+
+.card {
+    width: 280px;  
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+
+.card-img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.card-title {
+    font-size: 18px;
+    color: #000;
+    font-family: 500;
+
+}
+.card-price {
+    font-size: 18px;
+    font-family: 500;
+    margin-bottom: 8px;
+    color: #FC004A;
+  
+}
+.card-buy {
+    background: #FC004A;
+    border: none;border-radius: 12px;
+    padding: 6px;
+    margin-top: 12px;
+    transform: translateX(140px);
+    
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 15px;
+}
+
+
+
+@media (max-width:567px) {
+    .logo img {
+        display: none;
+    }
+    .logo button  {
+        display: inline-block;
+    }
+    .nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: inline-block;
+        justify-self: flex-start;
+    }
+}
+
+.card-buy img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.see a{
+    color:#000000;    ;
+    width: 199.53px;
+    height: 40px;
+}
+
+footer{
+    width: 976px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.see{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.you h2{
+    width: 84px;
+    height: 40px;
+}
